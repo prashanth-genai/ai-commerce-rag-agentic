@@ -1,1 +1,11 @@
+fastapi
+uvicorn
+langchain
+langgraph
+openai
+sentence-transformers
+faiss-cpu
+python-dotenv
+pydantic
+requests
 
