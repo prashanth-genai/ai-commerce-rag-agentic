@@ -1,1 +1,26 @@
+[
+  {
+    "customer_id": "U1001",
+    "name": "Arun Kumar",
+    "type": "B2C",
+    "email": "arun@example.com",
+    "tier": "BRONZE"
+  },
+
+  {
+    "customer_id": "B2B001",
+    "name": "TechMart Pvt Ltd",
+    "type": "B2B",
+    "email": "purchasing@techmart.com",
+    "tier": "GOLD"
+  },
+
+  {
+    "customer_id": "B2B002",
+    "name": "OfficeHub India",
+    "type": "B2B",
+    "email": "info@officehub.com",
+    "tier": "SILVER"
+  }
+]
 
