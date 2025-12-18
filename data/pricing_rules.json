@@ -1,1 +1,36 @@
+{
+  "tier_pricing": {
+    "GOLD": {
+      "discount_percent": 15,
+      "min_order_qty": 5
+    },
+    "SILVER": {
+      "discount_percent": 10,
+      "min_order_qty": 3
+    },
+    "BRONZE": {
+      "discount_percent": 5,
+      "min_order_qty": 2
+    }
+  },
+
+  "contract_pricing": {
+    "ACCOUNTS": [
+      {
+        "customer_id": "B2B001",
+        "sku": "SKU1001",
+        "contract_price": 2499,
+        "currency": "INR",
+        "valid_until": "2025-12-31"
+      },
+      {
+        "customer_id": "B2B002",
+        "sku": "SKU1002",
+        "contract_price": 1750,
+        "currency": "INR",
+        "valid_until": "2025-08-31"
+      }
+    ]
+  }
+}
 
