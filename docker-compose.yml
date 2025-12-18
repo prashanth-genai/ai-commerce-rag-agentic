@@ -1,1 +1,5 @@
+services:
+  ai-service:
+  agent-service:
+  vector-db:
 
