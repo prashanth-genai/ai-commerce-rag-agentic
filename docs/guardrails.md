@@ -66,7 +66,8 @@ All agent steps log:
 - Prompt  
 - Context  
 - Tool calls  
-- Final decision  
+- Final decision
+- 
 
 For audit & compliance.
 
