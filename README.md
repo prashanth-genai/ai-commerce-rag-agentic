@@ -57,4 +57,46 @@ The goal is to bring **AI automation** to B2C/B2B commerce platforms such as **H
 
 ## 🧠 Architecture Overview
 
+User (Web / Mobile / CSR)
+|
+FastAPI AI Gateway (Auth, Routing)
+|
+──────────────────────────────────────────
+| LangGraph Multi-Agent System |
+| Intent Classifier → Router → Agents |
+| Catalog | Order | Return | Cancel |
+──────────────────────────────────────────
+|
+RAG Retrieval Layer (FAISS / Chroma)
+|
+Java Commerce Microservices
+(Catalog / OMS / Pricing / Inventory / Shipping)
 
+
+---
+
+## 📂 Folder Structure
+
+ai-commerce-rag-agentic/
+│
+├── agents/ # Individual agents
+├── agent_service/ # LangGraph multi-agent workflow
+├── api_gateway/ # FastAPI gateway
+├── integration/ # Java microservice client
+├── rag/ # RAG (embeddings + retriever)
+├── docs/ # Architecture, RAG design, guardrails
+├── tests/ # Unit, integration, E2E, chaos tests
+├── load_tests/ # Locust load scripts
+├── openapi.yaml # API documentation
+├── Dockerfile # Container build file
+├── docker-compose.yml # Local orchestration
+└── README.md # This file
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+```bash
+ https://github.com/yourusername/ai-commerce-rag-agentic.git
+cd ai-commerce-rag-agentic
