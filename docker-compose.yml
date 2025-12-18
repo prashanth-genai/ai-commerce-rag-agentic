@@ -3,3 +3,14 @@ services:
   agent-service:
   vector-db:
 
+version: "3.8"
+services:
+  ai-service:
+    build: ./ai_service
+    ports:
+      - "8000:8000"
+
+  agent-service:
+    build: ./agent_service
+    ports:
+      - "8001:8001"
