@@ -1,1 +1,21 @@
+Return Policy for Ecommerce Orders (B2C & B2B)
+
+1. Electronics (e.g. Headphones, Earbuds):
+   - 10-day return window
+   - Return accepted only if item is undamaged
+   - Restocking fee: 5%
+   - Refund processed within 5 business days
+
+2. Furniture:
+   - Not returnable unless damaged on arrival
+   - Claims must be raised within 48 hours
+
+3. B2B Orders:
+   - Return only applicable for defective items
+   - Contract-based pricing refunds follow contract rules
+   - No-questions return policy does NOT apply
+
+4. Refund Processing:
+   - Refund = Item Price - Restocking Fee (if applicable)
+   - Refund mode: same as original payment
 
