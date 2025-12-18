@@ -1,1 +1,48 @@
+[
+  {
+    "sku": "SKU1001",
+    "name": "Noise Cancelling Headphones",
+    "brand": "SoundMax",
+    "category": "Electronics",
+    "price": 2999,
+    "description": "Wireless over-ear ANC headphones with 40 hours battery life.",
+    "features": ["ANC", "Bluetooth 5.2", "40h Battery", "Fast Charging"],
+    "returnable": true,
+    "specs": {
+      "weight": "230g",
+      "color": "Black",
+      "driver_size": "40mm"
+    }
+  },
+
+  {
+    "sku": "SKU1002",
+    "name": "Wireless Earbuds Pro",
+    "brand": "EarTech",
+    "category": "Electronics",
+    "price": 1999,
+    "description": "TWS earphones with noise isolation and fast charging.",
+    "features": ["Noise Isolation", "IPX5", "Fast Charging", "Touch Controls"],
+    "returnable": true,
+    "specs": {
+      "weight": "55g",
+      "color": "White"
+    }
+  },
+
+  {
+    "sku": "SKU2001",
+    "name": "Ergonomic Office Chair",
+    "brand": "ComfyWork",
+    "category": "Furniture",
+    "price": 7999,
+    "description": "Adjustable mesh chair designed for long working hours.",
+    "features": ["Lumbar Support", "Adjustable Height", "Mesh Backrest"],
+    "returnable": false,
+    "specs": {
+      "material": "Nylon",
+      "color": "Grey"
+    }
+  }
+]
 
